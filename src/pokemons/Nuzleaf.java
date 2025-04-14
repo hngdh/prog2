@@ -8,4 +8,6 @@ public class Nuzleaf extends Seedot {
         this.setStats(70, 70, 40, 60, 40, 60);
         this.setMove(new EnergyBall(), new ShadowBall(), new Growth());
     }
+
+    public static int a = 1778;
 }

@@ -2,6 +2,7 @@ import pokemons.*;
 import ru.ifmo.se.pokemon.*;
 public class Main {
     public static void main(String[] args) {
+        System.out.println(Nuzleaf.a);
         Battle battle = new Battle();
         Basculin basculin = new Basculin("Ba", 56);
         Lickitung lickitung = new Lickitung("Li", 3);

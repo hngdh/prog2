@@ -10,6 +10,9 @@ public class ShadowBall extends SpecialMove {
             p.setMod(Stat.SPECIAL_DEFENSE, -1);
         }
     }
+    public ShadowBall(int b) {
+        this();
+    }
     @Override
     public String describe() {
         return "Uses Shadow Ball";
